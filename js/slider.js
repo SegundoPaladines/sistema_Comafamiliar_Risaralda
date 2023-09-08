@@ -9,16 +9,12 @@ const cambio_automatico=()=>{
         cambio_automatico();
     }, 8000); 
 }
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
